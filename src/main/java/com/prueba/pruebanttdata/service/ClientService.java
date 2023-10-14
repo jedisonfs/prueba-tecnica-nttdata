@@ -7,15 +7,18 @@ import java.util.Optional;
 
 public interface ClientService {
 
-    List<Client> findAllCliets();
+    List<Client> findAllClients();
 
     List<Client> findAllClientsById(Long id);
+
+    Client findByDocumentNumber(String documentNumber);
 
     Client findById(Long id);
 
     Client addNewClient(Client client);
 
     Client updateClient(Client client);
+
     void deleteByDocumentNumber(String documentNumber);
 
     Boolean existByDocumenNumber(String documentNumber);

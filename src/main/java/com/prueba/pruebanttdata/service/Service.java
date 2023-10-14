@@ -1,4 +1,4 @@
 package com.prueba.pruebanttdata.service;
 
-public class TypeDocument {
+public interface Service {
 }

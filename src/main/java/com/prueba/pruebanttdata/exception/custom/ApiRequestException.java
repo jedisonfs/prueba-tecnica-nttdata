@@ -1,4 +1,4 @@
-package com.prueba.pruebanttdata.exception;
+package com.prueba.pruebanttdata.exception.custom;
 
 public class ApiRequestException extends RuntimeException {
 
