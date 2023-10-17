@@ -1,6 +1,6 @@
-package com.prueba.pruebanttdata.repository;
+package com.prueba.pruebanttdata.persistence.entity.repository;
 
-import com.prueba.pruebanttdata.domain.Client;
+import com.prueba.pruebanttdata.persistence.entity.Client;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

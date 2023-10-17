@@ -1,7 +1,7 @@
 package com.prueba.pruebanttdata;
 
-import com.prueba.pruebanttdata.domain.Client;
-import com.prueba.pruebanttdata.repository.ClientRepository;
+import com.prueba.pruebanttdata.persistence.entity.Client;
+import com.prueba.pruebanttdata.persistence.entity.repository.ClientRepository;
 
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -11,7 +11,6 @@ import org.springframework.boot.test.context.SpringBootTest;
 
 
 import java.util.List;
-import java.util.Set;
 
 @SpringBootTest
 class PruebaNttdataApplicationTests {

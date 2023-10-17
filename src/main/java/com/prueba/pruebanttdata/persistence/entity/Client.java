@@ -1,6 +1,4 @@
-package com.prueba.pruebanttdata.domain;
-
-import com.fasterxml.jackson.annotation.JsonIgnore;
+package com.prueba.pruebanttdata.persistence.entity;
 
 import javax.persistence.*;
 import javax.validation.constraints.NotNull;

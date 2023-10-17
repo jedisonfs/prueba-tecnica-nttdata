@@ -1,9 +1,8 @@
 package com.prueba.pruebanttdata.service;
 
-import com.prueba.pruebanttdata.domain.Client;
+import com.prueba.pruebanttdata.persistence.entity.Client;
 
 import java.util.List;
-import java.util.Optional;
 
 public interface ClientService {
 

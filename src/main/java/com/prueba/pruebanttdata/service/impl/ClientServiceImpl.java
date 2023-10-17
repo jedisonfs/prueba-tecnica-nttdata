@@ -1,8 +1,8 @@
 package com.prueba.pruebanttdata.service.impl;
 
-import com.prueba.pruebanttdata.domain.Client;
+import com.prueba.pruebanttdata.persistence.entity.Client;
 import com.prueba.pruebanttdata.exception.custom.ClientNotFoundException;
-import com.prueba.pruebanttdata.repository.ClientRepository;
+import com.prueba.pruebanttdata.persistence.entity.repository.ClientRepository;
 import com.prueba.pruebanttdata.service.ClientService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
@@ -46,7 +46,7 @@ public class ClientServiceImpl implements ClientService {
 
     @Override
     public Client addNewClient(Client client) {
-        log.info("Service add new client clients");
+        log.info("Initial service add new client");
         return repository.save(client);
     }
 
